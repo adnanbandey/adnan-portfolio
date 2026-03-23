@@ -16,7 +16,7 @@ body {
 /* Typography & Colors */
 h1, h2, h3, h4 { color: #222; margin-bottom: 10px; }
 h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
-.date { font-size: 0.85rem; color: #666; }
+.date { font-size: 0.80rem; color: #666; }
 
 /* Darker Divider */
 .divider { border: 0; border-top: 1px solid #ccc; margin: 60px 0; }
@@ -56,7 +56,7 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
 .primary-btn, .secondary-btn {
     display: inline-block;
     padding: 10px 20px;
-    border-radius: 6px;
+    border-radius: 100px;
     text-decoration: none;
     font-weight: bold;
     transition: opacity 0.2s;
@@ -86,6 +86,10 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
 }
 .about-content::-webkit-scrollbar-thumb:hover {
     background: #a8a8a8; 
+}
+
+.about-content p {
+    font-size: .8rem; /* Change this number up or down */
 }
 
 /* Timeline (Experience & Education) */
@@ -128,7 +132,7 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
     margin: 5px 0;
     padding-left: 20px;
     color: #555;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
 }
 .experience-list li { margin-bottom: 5px; }
 
@@ -173,10 +177,10 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: default;
 }
-.tool-badge:hover {
+/* .tool-badge:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
+} */
 .tool-badge .dot {
     width: 10px;
     height: 10px;
@@ -212,21 +216,21 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
     background-color: #e2e8f0;
     color: #334155;
     padding: 4px 8px;
-    border-radius: 4px;
+    border-radius: 100px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: bold;
     border: 1px solid #cbd5e1;
 }
-.project-card p { font-size: 0.95rem; color: #444; flex-grow: 1; }
+.project-card p { font-size: 0.8rem; color: #444; flex-grow: 1; }
 .project-link {
     display: inline-block;
     background-color: #3b82f6;
     color: white;
     padding: 8px 16px;
-    border-radius: 6px;
+    border-radius: 100px;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bold;
     margin-top: 20px;
     align-self: flex-start;
