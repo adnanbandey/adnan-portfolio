@@ -31,9 +31,13 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
 
 /* Hero Section */
 .hero-section { text-align: center; }
-.avatar { width: 180px; height: 180px; border-radius: 50%; margin-bottom: 20px; }
-.hero-section h1 { font-size: 2.5rem; margin-top: 5px; margin-bottom: 10px; }
-.hero-section h4 { margin-bottom: 0; color: #555; }
+.avatar { 
+    width: 180px; 
+    height: 200px; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+    object-fit: cover; /* Added this to keep your photo perfectly circular! */
+}
 
 /* Hero Personal Stats */
 .hero-info {
