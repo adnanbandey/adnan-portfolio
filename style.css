@@ -96,6 +96,11 @@ h2 { display: flex; align-items: center; gap: 10px; font-weight: 600; }
     font-size: .8rem; /* Change this number up or down */
 }
 
+/* Specifically target the paragraph text inside the Education section */
+.education-section .timeline-item p {
+    font-size: 0.85rem;
+}
+
 /* Timeline (Experience & Education) */
 .timeline {
     border-left: 2px solid #ddd;
